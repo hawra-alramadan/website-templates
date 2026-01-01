@@ -14,18 +14,18 @@ Students must create their **own original work** based on these references.
 
 ## Live Demo – Reference Templates
 
-| No. | Template Name | Live Demo |
-|----|---------------|-----------|
-| 01 | Template 1 | https://hawra-alramadan.github.io/website-templates/template-1/ |
-| 02 | Template 2 | https://hawra-alramadan.github.io/website-templates/template-2/ |
-| 03 | Template 3 | https://hawra-alramadan.github.io/website-templates/template-3/ |
-| 04 | Template 4 | https://hawra-alramadan.github.io/website-templates/template-4/ |
-| 05 | Template 5 | https://hawra-alramadan.github.io/website-templates/template-5/ |
-| 06 | Template 6 | https://hawra-alramadan.github.io/website-templates/template-6/ |
-| 07 | Template 7 | https://hawra-alramadan.github.io/website-templates/template-7/ |
-| 08 | Template 8 | https://hawra-alramadan.github.io/website-templates/template-8/ |
-| 09 | Template 9 | https://hawra-alramadan.github.io/website-templates/template-9/ |
-| 10 | Template 10 | https://hawra-alramadan.github.io/website-templates/template-10/ |
+| No. | Template | Demo |
+|-----|----------|------|
+| 01 | Template 1 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-1/) |
+| 02 | Template 2 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-2/) |
+| 03 | Template 3 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-3/) |
+| 04 | Template 4 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-4/) |
+| 05 | Template 5 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-5/) |
+| 06 | Template 6 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-6/) |
+| 07 | Template 7 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-7/) |
+| 08 | Template 8 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-8/) |
+| 09 | Template 9 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-9/) |
+| 10 | Template 10 | [🔗 View Demo](https://hawra-alramadan.github.io/website-templates/template-10/) |
 
 ---
 
