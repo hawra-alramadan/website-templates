@@ -1,0 +1,123 @@
+/* Simple Styling for Student Assignment */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+.main-header {
+    background: #1a3c5a; /* Navy Blue */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand { font-size: 22px; font-weight: bold; }
+
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { color: #fff; text-decoration: none; }
+
+.login-btn {
+    background: #f1c40f; /* Yellow/Gold */
+    color: #000 !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero { position: relative; width: 100%; height: 300px; }
+.hero-img { width: 100%; height: 100%; object-fit: cover; }
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+/* Main Content Grid */
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.search-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.form-row { margin-bottom: 15px; }
+.form-row label { display: block; font-weight: bold; }
+.form-row input { width: 100%; padding: 10px; border: 1px solid #ccc; }
+
+.btn-action {
+    background: #1a3c5a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Promo Sidebar */
+.promo-item {
+    background: #eef4f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Login Layout */
+.bg-light { background: #f4f4f4; }
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+.login-footer { text-align: center; margin-top: 20px; }
+.back-link { color: #1a3c5a; font-weight: bold; }
+
+/* Footer */
+.footer {
+    background: #1a3c5a;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social a { color: #fff; font-size: 20px; margin-left: 15px; }
+.footer-access a { color: #ccc; font-size: 13px; }

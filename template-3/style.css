@@ -1,0 +1,168 @@
+/* Styling for Student Multi-Page Project */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #004c3f; /* Dark Green */
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-button {
+    background-color: #c4a46d; /* Gold */
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: #000 !important;
+}
+
+/* Hero & Search Overlay */
+.hero-container {
+    position: relative;
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.search-overlay-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    width: 80%;
+}
+
+.search-grid {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.input-item {
+    flex: 1;
+}
+
+.input-item label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-item input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-btn {
+    background-color: #004c3f;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Promo Cards */
+.section-title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10%;
+    gap: 20px;
+}
+
+.promo-card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+.promo-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Login Layout */
+.login-body {
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.login-header {
+    background: white;
+    padding: 20px;
+}
+
+.login-form-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 400px;
+    border-top: 5px solid #c4a46d;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.back-link {
+    color: #004c3f;
+    text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+    background: #111;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}

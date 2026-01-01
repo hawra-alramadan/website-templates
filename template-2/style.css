@@ -1,0 +1,141 @@
+/* General Setup */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+}
+
+/* Header */
+.header {
+    background-color: #004c3f; /* Saudia Green */
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo-img { height: 45px; }
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.login-link {
+    background-color: #c4a46d; /* Saudia Gold */
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: black !important;
+}
+
+/* Big Airline Picture Section */
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.main-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Keeps the picture from looking stretched */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Two-Column Layout */
+.content-wrapper {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    gap: 30px; /* Space between search and promo */
+}
+
+.search-section {
+    flex: 2; /* Takes up more space */
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.search-form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.search-form input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-search {
+    background-color: #004c3f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Promotion Sidebar */
+.promo-sidebar {
+    flex: 1; /* Takes up less space */
+}
+
+.promo-box {
+    background-color: #e0ece4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #c4a46d;
+    border-radius: 5px;
+}
+
+/* Login Page Styles */
+.login-center-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.back-home-btn {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #004c3f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}

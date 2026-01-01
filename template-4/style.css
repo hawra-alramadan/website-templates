@@ -1,0 +1,163 @@
+/* Styling for SkyBound Arabia */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navigation */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10%;
+    background: #1a2a6c; /* Deep Blue */
+    color: white;
+    align-items: center;
+}
+
+.logo { font-size: 24px; font-weight: bold; }
+.logo span { color: #fdbb2d; /* Gold */ }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-login-btn {
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 450px;
+    text-align: center;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.search-bar {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+.search-bar button {
+    background: #fdbb2d;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Promotion Split Layout */
+.main-body { padding: 50px 10%; }
+
+.promo-banner {
+    display: flex;
+    background: #f4f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.promo-text { padding: 40px; flex: 1; }
+.promo-image { flex: 1; }
+.promo-image img { width: 100%; height: 100%; object-fit: cover; }
+
+.promo-btn {
+    background: #1a2a6c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Login Page Specifics */
+.login-bg { background: #1a2a6c; }
+
+.login-nav { padding: 20px; }
+.login-nav a { color: white; text-decoration: none; }
+
+.login-flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.login-form {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.field {
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.field input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.login-submit {
+    width: 100%;
+    background: #1a2a6c;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Footer & Icons */
+.footer {
+    background: #222;
+    color: white;
+    padding: 40px 10% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fdbb2d;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.copyright { text-align: center; font-size: 12px; margin-top: 20px; }
